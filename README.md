@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dapps: integer overflow.  The `add.sol` file contains a function that can overflow if the sum of the inputs exceeds the maximum value for the integer type. The `addSolution.sol` file demonstrates how to mitigate this issue using SafeMath.
